@@ -1,0 +1,23 @@
+{
+  "name": "Eleições 2030",
+  "short_name": "Eleições 2030",
+  "description": "Contagem regressiva para o pr&oacute;ximo ciclo eleitoral no Brasil",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#1e1e1e",
+  "theme_color": "#1e1e1e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "pt-BR"
+}

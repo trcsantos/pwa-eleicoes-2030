@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1e1e1e">
+  <title>Eleições 2030 - Contagem Regressiva</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Eleições 2030</h1>
+      <p>Pr&oacute;ximo ciclo eleitoral no Brasil</p>
+    </header>
+
+    <main>
+      <div class="timer">
+        <div class="unit">
+          <span class="value" id="days">00</span>
+          <span class="label">Dias</span>
+        </div>
+        <div class="unit">
+          <span class="value" id="hours">00</span>
+          <span class="label">Horas</span>
+        </div>
+        <div class="unit">
+          <span class="value" id="minutes">00</span>
+          <span class="label">Minutos</span>
+        </div>
+        <div class="unit">
+          <span class="value" id="seconds">00</span>
+          <span class="label">Segundos</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="installBtn" class="btn" style="display:none">Instalar App</button>
+        <button id="themeBtn" class="btn ghost" title="Alternar tema">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+
+      <div class="date-info">
+        <p>Data alvo: <strong>06 de outubro de 2030</strong></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2030 PWA Eleições</p>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
